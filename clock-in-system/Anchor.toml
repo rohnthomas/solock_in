@@ -2,14 +2,14 @@
 seeds = false
 skip-lint = false
 
-[programs.localnet]
-clock_in_system = "3QX9pzZwbd7uNmvBqiPW8YAV8ECV9v2v77L5pwGaSRAg"
+[programs.devnet]
+clock_in_system = "GMV2GPn4XJwz8uocRtRiwDEYjgBRnZKXRt9c3uxWktos"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

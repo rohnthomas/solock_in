@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use std::io::Write;
 
-declare_id!("3QX9pzZwbd7uNmvBqiPW8YAV8ECV9v2v77L5pwGaSRAg");
+declare_id!("GMV2GPn4XJwz8uocRtRiwDEYjgBRnZKXRt9c3uxWktos");
 
 #[program]
 pub mod clock_in_system {

@@ -1,52 +1,29 @@
-# SoLockIn - Blockchain Attendance System
+# SoLockIn - Blockchain Attendance System (show your presence onchain)
 
-A decentralized attendance system built on Solana blockchain that allows users to register and clock in/out securely.
+A decentralized attendance system built on the Solana blockchain, allowing users to register, clock in, and compete on a live leaderboard. **Currently deployed on Solana Devnet.**
 
 ## Features
 
-- User registration on the Solana blockchain
-- Secure clock-in/out functionality
-- Prevention of double registration
-- Modern UI with Tailwind CSS
-- Wallet integration
+- User registration on the Solana blockchain (devnet)
+- Secure daily clock-in functionality
+- Prevention of double registration and double clock-in
+- Live leaderboard showing top users by attendance
+- Modern cyberpunk UI with animated elements
+- Wallet integration (Phantom and Solana wallets)
+- Real-time attendance stats 
 
 ## Tech Stack
 
 - React
 - TypeScript
 - Tailwind CSS
-- Solana Web3.js
+- Solana Web3.js & Anchor
 - Vite
 
-## Getting Started
+---
+## Contributions
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/solock_in.git
-cd solock_in
-```
+- Contributions are always welcome. 
 
-2. Install dependencies:
-```bash
-npm install
-```
 
-3. Start the development server:
-```bash
-npm run dev
-```
-
-## Environment Variables
-
-Create a `.env` file in the root directory with the following variables:
-```
-VITE_SOLANA_RPC_URL=your_rpc_url
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+_This project is in active development on Solana Devnet. For questions or feedback, please open an issue on GitHub._ 
